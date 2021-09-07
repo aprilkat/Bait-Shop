@@ -1,0 +1,210 @@
+/*
+  Author:   April Bollinger
+  Date:     07/16/2020
+  Project:  LIVE Bait Shop
+*/
+/* main universal styles */
+body {
+  box-sizing: border-box;
+}
+
+:root {
+  --text: white;
+  --shadows: 0 3px 6px black;
+  --darkborder: 10px solid darkgreen;
+  --lightborder: 10px solid green;
+}
+
+header {
+  background-color: darkgreen;
+  color: var(--text);
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 20px;
+  box-shadow: var(--shadows);
+}
+
+.fab {
+  position: fixed;
+  color: black;
+  top: 10px;
+  right: 20px;
+  font-size: 4rem;
+  text-shadow: 4px 4px lightgrey;
+}
+
+.fas {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 4rem;
+  text-shadow: 4px 4px lightgrey;
+}
+
+.nav-menu {
+  border: none;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: green;
+  padding: 10px;
+  color: inherit;
+  margin-bottom: 30px;
+  box-shadow: var(--shadows);
+  font-size: 1.2rem;
+}
+
+a {
+  padding: 0px 20px 0px 20px;
+}
+
+a:link {
+  color: var(--text);
+  text-decoration: none;
+  background-color: inherit;
+}
+
+a:visited {
+  color: white;
+  text-decoration: line-through;
+  background-color: inherit;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+
+footer {
+  display: block;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: green;
+  color: var(--text);
+}
+
+/* index page styles */
+.services {
+  text-align: center;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+div {
+  background-color: lightgrey;
+  box-shadow: var(--shadows);
+  border: var(--lightborder);
+}
+
+.welomeM {
+  font-size: 1.5rem;
+  padding: 20px;
+  color: var(--text);
+  background-color: darkgreen;
+  box-shadow: var(--shadows);
+}
+
+.bass {
+  box-shadow: var(--shadows);
+  padding: 0px;
+}
+
+.bass img {
+  width: 100%;
+}
+
+.small-box {
+  display: grid;
+  margin-top: 30px;
+  grid-gap: 30px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h2, p {
+  padding: 10px;
+}
+
+/* items.html styles */
+.item-menu {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+h3 {
+  padding-left: 20px;
+  font-size: 1.6rem;
+}
+
+.title {
+  margin: 30px 0px 30px 0px;
+  text-align: center;
+  background-color: darkgreen;
+  color: var(--text);
+}
+
+.title h2 {
+  margin: 0;
+}
+
+li {
+  padding: 10px 0px 10px 0px;
+}
+
+/* bait.html styles */
+table, tr, td {
+  border: 2px solid black;
+}
+
+td {
+  padding-left: 30px;
+}
+
+th {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.subject {
+  font-size: 1.3rem;
+  color: var(--text);
+  font-weight: bolder;
+  background-color: darkgreen;
+}
+
+table {
+  text-align: center;
+  border: var(--darkborder);
+  background-color: green;
+  margin: auto;
+  color: var(--text);
+  width: 70%;
+  font-size: 1.1rem;
+}
+
+.start {
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: black;
+  color: var(--text);
+}
+
+/* bait.html styles */
+.contact-and-map {
+  display: grid;
+  grid-gap: 30px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.map {
+  border: none;
+}

@@ -1,0 +1,51 @@
+/*
+  Author:   April Bollinger
+  Date:     07/16/2020
+  Project:  LIVE Bait Shop
+*/
+.services {
+  grid-template-columns: 1fr;
+}
+
+table {
+  width: 100%
+}
+
+.item-menu {
+  grid-template-columns: 1fr 1fr;
+}
+
+.small-box {
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-and-map {
+  grid-template-columns: 1fr;
+}
+
+iframe {
+  width: 600px;
+}
+
+@media screen and (max-width: 638px) {
+  .nav-menu {
+    flex-wrap: wrap;
+  }
+
+  .small-box {
+    grid-template-columns: 1fr;
+  }
+
+  a {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .item-menu {
+    grid-template-columns: 1fr;
+  }
+
+  iframe {
+    width: 400px;
+  }
+}
